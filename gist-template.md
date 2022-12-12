@@ -3,11 +3,11 @@ Introductory paragraph
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This regex creates a set of parameters which determine what the user can enter as their email address. 
 
 ## Table of Contents
 
-- [Anchors](#anchors   
+- [Anchors](#anchors)   
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
@@ -22,7 +22,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
     An email regular expression or Regex pattern has four components. The first is the name of the owner of the address. It can be comprised of letters, numbers, dots or hyphens. After this is an "@" sign. Next, is the domain. You can use letters numbers or hyphens. This is followed by a dot ".". The next two portions are optional. Third is the extension you can use any letters. Finally can come another extension which which is made up of a dot then letters.
 
 ### Example: 
-/^([a-z\d\.-])$/
+/^([a-z\d\.-]+)\.([a-z]{2,8})$/
 ### Anchors
     The matching email regex utilizes the "^" or exact string match anchor. This anchor is placed at the start of the string before the first character. The other anchor we are using is "$". This marks the end of a string.
 ### Quantifiers
