@@ -13,7 +13,6 @@ This regex creates a set of parameters which determine what the user can enter a
 - [Anchors](#anchors)   
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
@@ -32,13 +31,12 @@ This regex creates a set of parameters which determine what the user can enter a
     A quantifier is used to determine the number of times a specific character, group of characters or character class must be included in an entry. In the case of an email regex this would likely be found on the extension as few would exceed more than a few characters. The example shows {2,8} which means the entry can be as few as two characters or as many as eight. 
 
 ### Character Classes
-    This dictates what characters can be used. This is represented by what is defined within the brackets "[]" or parentheses "()". These should appear in each portion of the expression. An example would be ([a-z]) allowing any lowercase letter between a and z
-### Flags
+    This dictates what characters can be used. This is represented by what is defined within the brackets "[]" or parentheses "()". These should appear in each portion of the expression. An example would be ([a-z]) allowing any lowercase letter between a and z.
 
 ### Grouping and Capturing
-    Grouping simply places letters, numbers or characters together. This can be accomplished with either brackets "[]" or parentheses "()".
+    Grouping simply places letters, numbers or characters together. This can be accomplished with either brackets "[]" or parentheses "()". In addition to this adding a "+" allows you to add as many characters as you need.
 ### Bracket Expressions
-    Brackets are how letters, numbers and characters are grouped together. Rules are defined within these brackets and they inform what is acceptable to be entered by the 
+    Brackets are how letters, numbers and characters are grouped together. Rules are defined within these brackets and they inform what is acceptable to be entered by the user. 
 ### Greedy and Lazy Match
 
 ### Boundaries
@@ -49,4 +47,5 @@ This regex creates a set of parameters which determine what the user can enter a
 
 ## Author
 
-This tutorial was created by Aaron Santowasso. You can find his github profile here
+This tutorial was created by Aaron Santowasso. You can find his github profile here-
+https://github.com/Asantowasso
