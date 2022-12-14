@@ -16,7 +16,6 @@ This regex creates a set of parameters which determine what the user can enter a
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
@@ -39,7 +38,6 @@ This regex creates a set of parameters which determine what the user can enter a
     Brackets are how letters, numbers and characters are grouped together. Rules are defined within these brackets and they inform what is acceptable to be entered by the user. 
 ### Greedy and Lazy Match
 
-### Boundaries
 
 ### Back-references
 
