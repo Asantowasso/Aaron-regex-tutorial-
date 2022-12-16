@@ -42,7 +42,7 @@ This regex creates a set of parameters which determine what the user can enter a
 
 ### Grouping and Capturing
 
-    Grouping simply places letters, numbers or characters together. This can be accomplished with either brackets "[]" or parentheses "()". In addition to this adding a "+" allows you to add as many characters as you need.
+    Grouping simply places letters, numbers or characters together. This can be accomplished with either brackets "[]" curly braces "{}" or parentheses "()". In addition to this adding a "+" allows you to add as many characters as you need.
 
     Ex. [A-Z \.] This string allows for any upper case letter in the alphabet and escapes the "." character
 
@@ -50,7 +50,7 @@ This regex creates a set of parameters which determine what the user can enter a
 
     Brackets are how letters, numbers and characters are grouped together. Rules are defined within these brackets and they inform what is acceptable to be entered by the user. 
 
-    Ex. [a-z\d\.] within these brackets we can use any lowercase letter any digit and a "." because it is escaped
+    Ex. ([a-z\d\.]) within these brackets we can use any lowercase letter any digit with the "\d" and a "." because it is escaped
 
 ## Author
 
