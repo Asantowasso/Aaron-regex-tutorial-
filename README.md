@@ -10,7 +10,7 @@ The tutorial can be used to educate developers on how to write an regular expres
 
 ## Image
 
-<img src = assets/regex.jpg>
+<img src = assets/regexaaron.jpg>
 
 
 ## Credits
